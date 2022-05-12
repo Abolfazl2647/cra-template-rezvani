@@ -1,0 +1,42 @@
+{
+    "package": {
+      "devDependencies": {
+        "eslint": "",
+        "eslint-config-airbnb": "",
+        "eslint-plugin-import": "",
+        "eslint-plugin-jsx-a11y": "",
+        "eslint-plugin-react": "",
+        "eslint-plugin-react-hooks": "",
+        "eslint-config-prettier": "",
+        "eslint-plugin-prettier": "",
+        "prettier": "",
+        "husky": "",
+        "lint-staged": "",
+        "@commitlint/cli": "",
+        "@commitlint/config-conventional": "",
+        "standard-version": ""
+      },
+      "scripts": {
+        "release": "standard-version && react-scripts build",
+        "serve": "npm run build && serve -s build",
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix",
+        "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+      },
+      "eslintConfig": {
+        "extends": ["react-app", "plugin:jsx-a11y/recommended"],
+        "plugins": ["jsx-a11y"]
+      },
+      "husky": {
+        "hooks": {
+            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+            "pre-commit": "lint-staged"
+        }
+      },
+      "lint-staged": {
+        "*.(js|jsx)": [
+          "npm run lint:write"
+        ]
+      }
+    }
+  }
