@@ -27,8 +27,10 @@ you can replace [app-name] with any name.
 "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
 ```
 
-### for more information
+### For more information
 
-(versioning)[https://github.com/conventional-changelog/standard-version]
-(eslint)[https://github.com/eslint/eslint]
-(prettier)[https://github.com/prettier/prettier]
+[versioning](https://github.com/conventional-changelog/standard-version)
+
+[eslint](https://github.com/eslint/eslint)
+
+[prettier](https://github.com/prettier/prettier)
