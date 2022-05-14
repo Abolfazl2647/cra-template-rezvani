@@ -12,7 +12,7 @@ CRA template which handle versioning eslint and prettier all together
 simply by using this command
 
 ```
-npx create-react-app --template rezvani [app-name]
+npx create-react-app [app-name] --template rezvani
 ```
 
 you can replace [app-name] with any name.
