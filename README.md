@@ -1,5 +1,8 @@
+<a href="https://www.npmjs.com/package/cra-template-rezvani"><img alt="npm version" src="https://badge.fury.io/js/cra-template-rezvani.svg"></a>
+
 # rezvani
 CRA template which handle versioning eslint and prettier all together
+
 
 ## What it has
 
