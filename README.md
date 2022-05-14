@@ -1,3 +1,5 @@
+<a href="https://www.npmjs.com/package/cra-template-rezvani"><img alt="Downloads" src="http://img.shields.io/npm/dm/cra-template-rezvani.svg"></a>
+[![npm](https://img.shields.io/npm/dt/cra-template-rezvani.svg)](https://www.npmjs.com/package/cra-template-rezvani)
 <a href="https://www.npmjs.com/package/cra-template-rezvani"><img alt="npm version" src="https://badge.fury.io/js/cra-template-rezvani.svg"></a>
 
 # rezvani
