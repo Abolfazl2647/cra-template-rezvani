@@ -1,4 +1,4 @@
-# cra-rezvani
+# rezvani
 CRA template which handle versioning eslint and prettier all together
 
 ## What it has
