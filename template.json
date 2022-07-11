@@ -33,6 +33,7 @@
       "eject": "react-scripts eject",
       "prepare": "husky install",
       "lint": "eslint --fix",
+      "release": "standard-version",
       "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
       "svg": "svgr --ext=jsx -d src/@share/icons public/icons"
     },
