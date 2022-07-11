@@ -1,6 +1,6 @@
 {
-  "name": "cra-rezvani",
-  "version": "1.0.2",
+  "name": "cra-template-rezvani",
+  "version": "1.0.3",
   "main": "index.js",
   "license": "MIT"
 }
