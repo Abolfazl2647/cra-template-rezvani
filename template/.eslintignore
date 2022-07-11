@@ -1,8 +1,8 @@
 /.git
 /.vscode
 node_modules
-prettier.config.js
-commitlint.config.js
+.prettierrc.js
 .eslintrc.js
 jsconfig.json
+package.json
 /src/@share/icons
