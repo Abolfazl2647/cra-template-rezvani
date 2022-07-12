@@ -3,10 +3,10 @@ module.exports = {
         { type: 'feat', section: 'Features' },
         { type: 'fix', section: 'Bug Fixes' },
         { type: 'refactor', section: 'Performance update' },
-        { type: 'chore', hidden: true },
+        { type: 'perf', section: 'Performance update' },
+        { type: 'wip', hidden: true },
         { type: 'docs', hidden: true },
         { type: 'style', hidden: true },
-        { type: 'perf', hidden: true },
         { type: 'test', hidden: true }
     ]
 };

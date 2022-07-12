@@ -2,10 +2,10 @@ module.exports = {
     parserPreset: 'conventional-changelog-conventionalcommits',
     rules: {
         'body-leading-blank': [1, 'always'],
-        'body-max-line-length': [2, 'always', 100],
+        'body-max-line-length': [2, 'always', 120],
         'footer-leading-blank': [1, 'always'],
-        'footer-max-line-length': [2, 'always', 100],
-        'header-max-length': [2, 'always', 100],
+        'footer-max-line-length': [2, 'always', 120],
+        'header-max-length': [2, 'always', 120],
         'subject-case': [2, 'never', ['sentence-case', 'start-case', 'pascal-case', 'upper-case']],
         'subject-empty': [2, 'never'],
         'subject-full-stop': [2, 'never', '.'],
@@ -17,6 +17,7 @@ module.exports = {
             [
                 'build',
                 'chore',
+                'wip',
                 'ci',
                 'docs',
                 'feat',
@@ -34,6 +35,11 @@ module.exports = {
             type: {
                 description: "Select the type of change that you're committing",
                 enum: {
+                    wip: {
+                        description: 'work in progress',
+                        title: 'Developing',
+                        emoji: '💻'
+                    },
                     feat: {
                         description: 'A new feature',
                         title: 'Features',
@@ -126,4 +132,3 @@ module.exports = {
         }
     }
 };
-
