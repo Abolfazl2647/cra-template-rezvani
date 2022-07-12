@@ -3,14 +3,18 @@
 <a href="https://www.npmjs.com/package/cra-template-rezvani"><img alt="npm version" src="https://badge.fury.io/js/cra-template-rezvani.svg"></a>
 
 # rezvani
-CRA template which handle versioning eslint and prettier all together
+CRA template which handle versioning eslint and prettier all together and also provide desgin structure system for large scale application.
 
 
 ## What it has
 
 1- setup conventional standard versioning
-2- setup eslint configuration for airbnb
+
+2- setup eslint with configuration of airbnb
+
 3- setup prettier
+
+4- desgin structure
 
 ## How to use:
 
