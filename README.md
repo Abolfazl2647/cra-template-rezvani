@@ -23,6 +23,11 @@ simply by using this command
 ```
 npx create-react-app [app-name] --template rezvani
 ```
+or with yarn
+```
+yarn create react-app [app-name] --template rezvani
+```
+
 
 you can replace [app-name] with any name.
 
